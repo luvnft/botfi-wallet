@@ -10,7 +10,7 @@ import {prng_alea} from 'esm-seedrandom';
 import { ZeroAddress, isAddress as ethersIsAddress, formatUnits, getAddress, parseUnits } from 'ethers';
 import { v5 as uuidv5 } from 'uuid';
 import appConfig from "../config/app.js"
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs'
 import { useNetworks } from '../composables/useNetworks.js';
 import Http from './Http.js';
 
